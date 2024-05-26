@@ -30,7 +30,7 @@ class Person:
             self._name = value.title()
         else:
             print("Name must be string between 1 and 25 characters.")
-            self._name = "Unknown"  # Optional: default value in case of error
+            self._name = "Unknown"
 
     @property
     def job(self):
